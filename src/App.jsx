@@ -121,7 +121,8 @@ function App() {
       setWeatherMain(result.weather[0].main)
       const weatherIconCode=result.weather[0].icon;
 
-      setIcon(WeatherIconList[weatherIconCode] || ClearImage)
+      // setIcon(WeatherIconList[weatherIconCode] || ClearImage)
+      setIcon(`https://openweathermap.org/img/wn/${weatherIconCode}@2x.png`)
 
       
 
