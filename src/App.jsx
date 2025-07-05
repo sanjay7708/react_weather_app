@@ -16,7 +16,7 @@ import DewImage from "/public/images/dewpoint.png"
 const WeatherDetail = ({ icon, temp, city, country, lat, lon, humidity, wind,weatherMain }) => {
   return (
     <>
-      <h1>Hai Arun</h1>
+      
       <div className="image">
         <img src={icon} alt="clearimage" />
         
