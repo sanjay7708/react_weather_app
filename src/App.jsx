@@ -113,7 +113,7 @@ function App() {
 
 
       setCity(result.name) 
-      setTemp(Math.floor(result.main.temp))
+      setTemp(result.main.temp)
       setLat(result.coord.lat)
       setLon(result.coord.lon)
       setWind(result.wind.speed)
